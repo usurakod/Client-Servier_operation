@@ -1,0 +1,52 @@
+BrightTag.site('t4tmU86',function(s){
+s.dbe('url', 'location.href',{pageId:694196});
+s.dbe('referralurl - engaged visits', 'document.referrer',{pageId:2483753});
+s.store([{name:'btpdb.t4tmU86.dGZjLjQyMjIzNDQ',value:'UkVRVUVTVFMuMQ',expires:1580087912454},{name:'btpdb.t4tmU86.dGZjLjY4NzEzOTM',value:'UkVRVUVTVFMuMQ',expires:1580087912454}]);
+s.events.bind('santa clara university - all pages contact us click','a[href\x3d\x22https://legacy.scu.edu/inquiry/index.cfm?career\x3dcped\x22]','DIRECT/click',{pageId:2483753});
+s.events.bind('santa clara admissions visit','a[href\x3d\x22https://ugrdslate.scu.edu/portal/visitscu\x22]','DIRECT/click',{pageId:2483753});
+s.events.bind('santa clara university - contact us page - submit form click','#form_dbe11920-590c-4436-bade-8d29130c4c4a_container \x3e div.action.form_action \x3e button','DIRECT/click',{pageId:2483753});
+s.events.bind('santa clara university - apply button clicks','.stroked.red.link-button','DIRECT/click',{pageId:2483753});
+s.events.bind('santa clara university - apply now button (social)','a:contains(\x22Apply Now\x22)','DIRECT/click',{pageId:2483753});
+s.events.bind('santa clara university - apply now click','a[href\x3d\x22https://slate.scu.edu/apply/\x22]','DIRECT/click',{pageId:2483753});
+s.events.bind('santa clara admissions apply','.border.border-white.btn.btn-primary.btn-default','DIRECT/click',{pageId:2483753});
+s.events.bind('sta clara ua - apply now button','a[href\x3d\x22https://apply.commonapp.org/Login\x22]','DIRECT/click',{pageId:2483753});
+s.events.bind('sta clara ua - visit ','a[href\x3d\x22https://ugrdslate.scu.edu/portal/visitscu\x22]','DIRECT/click',{pageId:2483753});
+s.events.on('santa clara university - apply button clicks').fire(5889003);
+s.events.on('santa clara university - apply now click').fire(5948985);
+s.events.on('santa clara university - all pages contact us click').fire(6062096);
+s.when('bt_data(\x27url\x27).indexOf(\x22scu.edu/admission\x22) \x3e -1',function(){
+s.events.on('santa clara admissions apply').fire(6737374);
+});
+s.when('bt_data(\x27url\x27).indexOf(\x22scu.edu/admission\x22) \x3e -1',function(){
+s.events.on('santa clara admissions visit').fire(6737388);
+});
+s.events.on('santa clara university - apply now button (social)').fire(6748073);
+s.events.on('santa clara admissions visit').fire(6748105);
+s.events.on('santa clara university - all pages contact us click').fire(6748122);
+s.events.on('santa clara university - contact us page - submit form click').fire(6765607);
+s.when('bt_data(\x27url\x27).indexOf(\x22/admission/undergraduate/\x22) \x3e -1',function(){
+s.events.on('sta clara ua - apply now button').fire(6871340);
+});
+s.when('bt_data(\x27url\x27).indexOf(\x22/admission/undergraduate/\x22) \x3e -1',function(){
+s.events.on('sta clara ua - visit ').fire(6871377);
+});
+s.domready(function(){
+s.tag('\x3cimg height\x3d\x221\x22 width\x3d\x221\x22 style\x3d\x22border-style:none;\x22 alt\x3d\x22\x22 src\x3d\x22//insight.adsrvr.org/track/evnt/?adv\x3d5x6lkn9\x26ct\x3d0:5x6a5ol\x26fmt\x3d3\x22/\x3e',{tagId:4222333});
+s.tag('\x3cscript type\x3d\x22text/javascript\x22 src\x3d\x22//cdn.callrail.com/companies/601879365/4676773caa459c8ee3d5/12/swap.js\x22\x3e\x3c/script\x3e',{tagId:4420794});
+s.tag('\x3c!-- Facebook Pixel Code --\x3e\n\x3cscript\x3e\n  !function(f,b,e,v,n,t,s)\n  {if(f.fbq)return;n\x3df.fbq\x3dfunction(){n.callMethod?\n  n.callMethod.apply(n,arguments):n.queue.push(arguments)};\n  if(!f._fbq)f._fbq\x3dn;n.push\x3dn;n.loaded\x3d!0;n.version\x3d\x272.0\x27;\n  n.queue\x3d[];t\x3db.createElement(e);t.async\x3d!0;\n  t.src\x3dv;s\x3db.getElementsByTagName(e)[0];\n  s.parentNode.insertBefore(t,s)}(window, document,\x27script\x27,\n  \x27https://connect.facebook.net/en_US/fbevents.js\x27);\n  fbq(\x27init\x27, \x27336776737093282\x27);\n  fbq(\x27track\x27, \x27PageView\x27);\n\x3c/script\x3e\n\n\x3c!-- End Facebook Pixel Code --\x3e\n',{tagId:6744059});
+s.secondary(function(c){
+c.when('bt_data(\x27url\x27).indexOf(\x22/ecp/admissions/\x22) \x3e -1').fire(4222337);
+c.when('bt_data(\x27url\x27).indexOf(\x22/apply/edcp/handler.cfm?event\\x3dhome\x22) \x3e -1').fire(4222343);
+c.when('bt_data(\x27url\x27).indexOf(\x22/register/?id\\x3d4ba06f6b-ccb4-4b93-8eb0-faf62a8ffb85\x22) \x3e -1').fire(4222354);
+c.when('bt_data(\x27url\x27).indexOf(\x22/ecp/programs/\x22) \x3e -1').fire(5889016);
+c.when('bt_data(\x27url\x27).indexOf(\x22/ecp/admissions/\x22) \x3e -1').fire(6599166);
+c.when('bt_data(\x27url\x27).indexOf(\x22scu.edu/admission/undergraduate/contact-us/\x22) \x3e -1').fire(6737397);
+c.when('bt_data(\x27url\x27).indexOf(\x22scu.edu/admission/undergraduate/choosing-scu/\x22) \x3e -1').fire(6737411);
+c.when('bt_data(\x27url\x27).indexOf(\x22/admission/undergraduate/choosing-scu/\x22) \x3e -1').fire(6748142);
+c.when('bt_data(\x27referralurl - engaged visits\x27).indexOf(\x22scu.edu\x22) \x3e -1').fire(6748161);
+c.when('bt_data(\x27url\x27).indexOf(\x22scu.edu/admission\x22) \x3e -1').fire(6779768);
+c.when('bt_data(\x27url\x27).indexOf(\x22/undergraduate/contact-us/\x22) \x3e -1').fire(6871349);
+c.when('bt_data(\x27url\x27).indexOf(\x22/aboutscu/\x22) \x3e -1').fire(6871368);
+});
+});
+});

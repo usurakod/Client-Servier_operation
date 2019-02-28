@@ -1,0 +1,2 @@
+javac server.java
+java server -document_root "./" -port 8080
